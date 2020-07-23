@@ -1,0 +1,61 @@
+netsh wlan set hostednetwork mode=allow ssid=5GG key=12345678
+
+netsh wlan start hostednetwork
+
+
+
+cd C:\Users\Luis\AppData\Local\Programs\Python\Python37
+
+pip install requests
+
+python -m pip install --upgrade pip
+
+pip3 install requests
+
+pip install google-api-python-client
+
+pip install google-auth-oauthlib
+
+pip install datefinder
+
+pip install oauth2client
+
+
+
+instalacion de libreria para correo
+pip install smtplib
+
+
+---------------------------------------------------
+uso de la libreria flask
+
+py -m venv nombre de Carpeta o Proyecto
+
+cd nombre de Carpeta o Proyecto\Scripts
+
+ACTIVATE
+
+pip  install flask
+
+Set FLASK_APP=nombre de archivo.py
+
+flask run
+
+entrar al servidor 127.0.0.1:5000
+
+api en flask
+--instalaciones
+pip install -U Flask
+pip install flask_restful
+---librerias
+from flask import Flask
+from flask_restful import Resource, Api
+
+
+
+
+wifi error
+
+29 de septiembre 2019
+
+

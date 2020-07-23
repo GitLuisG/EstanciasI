@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+</head>
+<body>
+
+<div id="info"></div>
+
+<script type="text/javascript">
+	var personaJSON = {
+	"nombre"  : "Luis",
+	"apellido": "Gomez",
+	"edad"    : 20,
+	"salario" :2000
+};
+//document.write(personaJSON.nombre + " TIENE " + personaJSON.edad + " ANOS " );
+
+var cliente = "";
+cliente += "Nombre: "+personaJSON.nombre + "<br/>";
+cliente += "Apellido: "+personaJSON.apellido + "<br/>";
+cliente += "Edad: "+personaJSON.edad + "<br/>";
+cliente += "Salario: "+personaJSON.salario + "<br/>";
+
+var elemento = document.getElementById("info");
+elemento.innerHTML= cliente;
+
+</script>
+</body>
+</html>
